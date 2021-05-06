@@ -15,7 +15,7 @@ public class Biblioteca {
  	} 
  	
  	public String isbn() {
- 		return "12345";
+ 		return livros.get(0).getIsbn();
  	}
  
 }
