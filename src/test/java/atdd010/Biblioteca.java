@@ -13,6 +13,10 @@ public class Biblioteca {
  	public int size() { 
  		return livros.size(); 
  	} 
+ 	
+ 	public String isbn() {
+ 		return "12345";
+ 	}
  
 }
 
