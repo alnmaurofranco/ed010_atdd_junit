@@ -2,12 +2,9 @@ package atdd010;
 
 import static org.junit.Assert.*;
 
-import java.util.List;
-
 import org.junit.Test;
 
 public class CT01CadastrarLivro_com_sucesso {
-
 	@Test 
 	public void ct01_quando_dados_validos_cadastra_com_sucesso() { 
 		Biblioteca biblioteca = new Biblioteca(); 
