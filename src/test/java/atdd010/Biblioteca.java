@@ -17,5 +17,9 @@ public class Biblioteca {
  	public String isbn() {
  		return livros.get(0).getIsbn();
  	}
+ 	
+ 	public String titulo() {
+ 		return livros.get(0).getTitulo();
+ 	}
 }
 
