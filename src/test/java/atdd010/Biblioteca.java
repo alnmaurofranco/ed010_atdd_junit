@@ -21,5 +21,9 @@ public class Biblioteca {
  	public String titulo() {
  		return livros.get(0).getTitulo();
  	}
+ 	
+ 	public String autor() {
+ 		return livros.get(0).getAutor();
+ 	}
 }
 
