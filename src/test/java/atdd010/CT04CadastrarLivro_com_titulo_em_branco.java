@@ -11,7 +11,6 @@ public class CT04CadastrarLivro_com_titulo_em_branco {
 		Biblioteca biblioteca = new Biblioteca(); 
 	 	Livro umLivro = new Livro("12345", "", "Pressman"); 
 	 	biblioteca.add(umLivro); 
-	 	assertEquals("", umLivro.titulo);
+	 	assertEquals("", biblioteca.titulo());
 	}
-
 }
