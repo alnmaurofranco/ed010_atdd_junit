@@ -12,11 +12,10 @@ public class Biblioteca {
  
  	public int size() { 
  		return livros.size(); 
- 	} 
+ 	}
  	
  	public String isbn() {
  		return livros.get(0).getIsbn();
  	}
- 
 }
 
